@@ -1,0 +1,3 @@
+python get cpu usage --> https://stackoverflow.com/questions/276052/how-to-get-current-cpu-and-ram-usage-in-python
+python check if folder exists --> https://www.guru99.com/python-check-if-file-exists.html
+python create directory --> https://www.geeksforgeeks.org/create-a-directory-in-python/#:~:text=Using%20os.-,mkdir(),to%20be%20created%20already%20exists.
