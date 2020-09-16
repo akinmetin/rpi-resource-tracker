@@ -1,3 +1,14 @@
 python get cpu usage --> https://stackoverflow.com/questions/276052/how-to-get-current-cpu-and-ram-usage-in-python
 python check if folder exists --> https://www.guru99.com/python-check-if-file-exists.html
 python create directory --> https://www.geeksforgeeks.org/create-a-directory-in-python/#:~:text=Using%20os.-,mkdir(),to%20be%20created%20already%20exists.
+python write to text file --> https://stackoverflow.com/questions/5214578/print-string-to-text-file
+python random string and number --> https://pynative.com/python-generate-random-string/
+python write list to file line by line --> https://linuxhandbook.com/python-write-list-file/
+python psutil get process --> https://thispointer.com/python-get-list-of-all-running-processes-and-sort-by-highest-memory-usage/
+python write list of dictionaries to file --> https://stackoverflow.com/questions/25778021/how-can-i-save-a-list-of-dictionaries-to-a-file
+python append to file --> https://stackoverflow.com/questions/4706499/how-do-you-append-to-a-file-in-python
+
+raspberry pi python script as service --> https://gist.github.com/emxsys/a507f3cad928e66f6410e7ac28e2990f
+
+debian screen --> https://linuxize.com/post/how-to-use-linux-screen/
+python script to use memory --> https://stackoverflow.com/questions/6317818/how-to-eat-memory-using-python
