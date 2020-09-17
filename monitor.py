@@ -8,12 +8,6 @@ import string
 import json
 
 
-# # track the length of high memeory usage
-# def trackOccurance():
-
-#     while True:
-#         if psutil.virtual_memory().percent > 80:
-#         break
 def getDate():
     now = datetime.now()
     date_string = now.strftime("%d-%m-%Y")
@@ -58,10 +52,8 @@ def trackMemory():
     counter = 1
     event_ended = False
     while True:
-        # you can have the percentage of used RAM eg. 79.2
-        if psutil.virtual_memory().percent > 11:
-            print(counter)
-            if counter == 3:
+        if psutil.virtual_memory().percent > 80:
+            if counter == 15:
                 date_string = getDate()
                 date_time_string = getDateTime()
                 id = get_random_alphanumeric_string()
@@ -77,7 +69,7 @@ def trackMemory():
 
                 # log running processes according to descending memory usage
                 os.chdir("/var/log/memorymonitor/processes")
-                with open("{}.txt".format(id), "w") as text_file:
+                with open("{}.txt".format(id), "a") as text_file:
                     process_list = getListOfProcessSortedByMemory()
                     for process in process_list:
                         json.dump(process, text_file)
@@ -93,7 +85,6 @@ def trackMemory():
             date_string = getDate()
             date_time_string = getDateTime()
 
-            print("ended")
             # write end date and time
             os.chdir("/var/log/memorymonitor")
             with open("{}.txt".format(date_string), "a") as text_file:

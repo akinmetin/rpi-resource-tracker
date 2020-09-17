@@ -7,6 +7,8 @@ python write list to file line by line --> https://linuxhandbook.com/python-writ
 python psutil get process --> https://thispointer.com/python-get-list-of-all-running-processes-and-sort-by-highest-memory-usage/
 python write list of dictionaries to file --> https://stackoverflow.com/questions/25778021/how-can-i-save-a-list-of-dictionaries-to-a-file
 python append to file --> https://stackoverflow.com/questions/4706499/how-do-you-append-to-a-file-in-python
+python unittest function --> https://docs.python-guide.org/writing/tests/
+python unittest example --> https://www.journaldev.com/15899/python-unittest-unit-test-example
 
 raspberry pi python script as service --> https://gist.github.com/emxsys/a507f3cad928e66f6410e7ac28e2990f
 
