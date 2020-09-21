@@ -82,6 +82,3 @@ python eat memory intentionally --> https://stackoverflow.com/questions/6317818/
 python psutil get process --> https://thispointer.com/python-get-list-of-all-running-processes-and-sort-by-highest-memory-usage/
 
 python get cpu/ram usage --> https://stackoverflow.com/questions/276052/how-to-get-current-cpu-and-ram-usage-in-python
-
-
-Developed with <3 by Metin Akin
