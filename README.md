@@ -75,10 +75,4 @@ Tested the live version on my Raspberry Pi 3 device with default Raspberry Pi OS
 
 ## Resources
 
-raspberry pi python script as service --> https://gist.github.com/emxsys/a507f3cad928e66f6410e7ac28e2990f
-
-python eat memory intentionally --> https://stackoverflow.com/questions/6317818/how-to-eat-memory-using-python
-
-python psutil get process --> https://thispointer.com/python-get-list-of-all-running-processes-and-sort-by-highest-memory-usage/
-
-python get cpu/ram usage --> https://stackoverflow.com/questions/276052/how-to-get-current-cpu-and-ram-usage-in-python
+Resource links can be found in resources.txt file.
