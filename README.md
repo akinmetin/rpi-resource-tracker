@@ -13,9 +13,9 @@ Raspberry Pi device with OS (Debian Buster, version August 2020)
 
 ## Installing & Instructions
 
-Copy ``monitor.py`` and ``requirements.txt`` into ``/home/pi/pitop`` folder.
+Copy ``monitor.py`` and ``requirements.txt`` into ``/home/pi/metin`` folder.
 
-Enter into ``/home/pi/pitop`` folder.
+Enter into ``/home/pi/metin`` folder.
 
 Run ``pip3 install -r requirements.txt``
 
@@ -33,7 +33,7 @@ After=multi-user.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 /home/pi/pitop/monitor.py
+ExecStart=/usr/bin/python3 /home/pi/metin/monitor.py
 Restart=on-abort
 
 [Install]
@@ -41,7 +41,7 @@ WantedBy=multi-user.target
 #
 
 sudo chmod 644 /lib/systemd/system/rpimonitor.service
-chmod +x /home/pi/pitop/monitor.py
+chmod +x /home/pi/metin/monitor.py
 sudo systemctl daemon-reload
 sudo systemctl enable rpimonitor.service
 sudo systemctl start rpimonitor.service
@@ -69,9 +69,9 @@ I have used ``psutil`` library which enables programs/scripts to track processes
 
 You can edit and use ``memory_consumer.py`` script to consume the device's memory intentionally. You also need to decrease 80% threshold value and seconds in ``monitor.py`` to test the script easier.
 
-Test cases can be found in ``/tests`` folder and all test cases are passing.
+Test cases can be found in ``/tests`` folder.
 
-Tested the live version on my Raspberry Pi 3 device with default Raspberry Pi OS(Debian Buster, version August 2020) installation and works without a problem.
+Tested the live version on my Raspberry Pi 3 device with default Raspberry Pi OS(Debian Buster, version August 2020) installation and works without any problem.
 
 ## Resources
 
